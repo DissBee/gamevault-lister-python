@@ -8,10 +8,14 @@ This script exists for me to grab games from my instance and run em through lutr
 
 
 # Config File Details
-A config json will be generated after you auth for the first time. It stores your server address, username, and chosen download directory. You will have to entire password each time.
+A config json will be generated after you auth for the first time. It stores your server address, username, and chosen download directory. 
+
+You will have to entire password each time, and it will time out after 5 min requiring a reauth
 
 # Security note
-Run at your own risk - I am not responsible for how this script handles your credentials - if you want a proper program check out Smoke-Launcher or the official GameVault client.
+Run at your own risk - I am not responsible for how this script handles your credentials.
+
+if you want a proper program check out Smoke-Launcher or the official GameVault client.
 
 
 
@@ -31,4 +35,9 @@ This installs the required packages into your virtual environment
 <code> python gamevault-lister-python.py </code>
 
 There ya go!
+
+# It looks like this:
+
+<img width="748" height="789" alt="image" src="https://github.com/user-attachments/assets/9b5931e8-b74b-4464-9f07-5b0ba4cdd5fa" />
+
 
